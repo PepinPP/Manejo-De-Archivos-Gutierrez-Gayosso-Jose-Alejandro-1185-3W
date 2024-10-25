@@ -30,3 +30,31 @@ print(f.read())
 
 ![image](https://github.com/user-attachments/assets/953d2e73-2fd8-4be9-963b-5dcffa190bd7)
 
+
+5=Escritura de archivos en Python
+❮ AnteriorPróximo ❯Escribir en un archivo existente
+Para escribir en un archivo existente, debe agregar un parámetro a la open()función:
+"a"- Anexar - se agregará al final del archivo
+"w"- Escribir: sobrescribirá cualquier contenido existente
+
+![image](https://github.com/user-attachments/assets/98763251-d5f4-488a-8b56-8dfef20aa728)
+
+![image](https://github.com/user-attachments/assets/da0d0fc6-dc71-4689-97ae-a544e6dea2c9)
+
+6=Ejemplo
+Abra el archivo "demofile3.txt" y sobrescriba el contenido:
+f = open("demofile3.txt", "w")
+f.write("Woops! I have deleted the content!")
+f.close()
+#open and read the file after the overwriting:
+
+
+
+
+f = open("demofile3.txt", "r")
+print(f.read())
+
+![image](https://github.com/user-attachments/assets/bd387bb3-5023-49a1-9f49-98e47e617870)
+
+![image](https://github.com/user-attachments/assets/5b93ae75-2337-424e-87f6-61a4079cbaab)
+

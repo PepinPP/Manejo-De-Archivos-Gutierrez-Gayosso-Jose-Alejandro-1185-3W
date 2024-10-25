@@ -47,10 +47,6 @@ f = open("demofile3.txt", "w")
 f.write("Woops! I have deleted the content!")
 f.close()
 #open and read the file after the overwriting:
-
-
-
-
 f = open("demofile3.txt", "r")
 print(f.read())
 
@@ -58,3 +54,34 @@ print(f.read())
 
 ![image](https://github.com/user-attachments/assets/5b93ae75-2337-424e-87f6-61a4079cbaab)
 
+7= liminar archivo de Python
+❮ AnteriorPróximo ❯Eliminar un archivo
+Para eliminar un archivo, debes importar el módulo del sistema operativo y ejecutar su os.remove()función:
+Ejemplo
+Eliminar el archivo "demofile.txt":
+import os
+os.remove("demofile.txt")
+
+![image](https://github.com/user-attachments/assets/6bab8945-931d-46d6-8af0-3e2c570babc4)
+
+![image](https://github.com/user-attachments/assets/86ad6026-ca8a-4da3-903a-379272722580)
+
+8=Comprobar si el archivo existe:
+Para evitar obtener un error, es posible que desees verificar si el archivo existe antes de intentar eliminarlo:
+Ejemplo
+Comprueba si el archivo existe  elimínalo:
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
+![image](https://github.com/user-attachments/assets/c2a199a3-aaf5-47c9-9afe-3926058df3f6)
+
+![image](https://github.com/user-attachments/assets/3f01eaaa-4968-4882-9857-8026e1666a56)
+
+9=Eliminar carpeta
+Para eliminar una carpeta entera, utilice el os.rmdir()método:
+Ejemplo
+Eliminar la carpeta "myfolder":
+import os
+os.rmdir("myfolder")

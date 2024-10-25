@@ -1,5 +1,7 @@
 # Manejo-De-Archivos-Gutierrez-Gayosso-Jose-Alejandro-1185-3W
 
+Gutierrez-Gayosso-Jose-Alejandro-1185-3W
+
 2=Para abrir el archivo, utilice la función incorporada open().
 La open()función devuelve un objeto de archivo, que tiene un read()método para leer el contenido del archivo:
 EjemploObtenga su propio servidor Python

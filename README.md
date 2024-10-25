@@ -85,3 +85,7 @@ Ejemplo
 Eliminar la carpeta "myfolder":
 import os
 os.rmdir("myfolder")
+
+![image](https://github.com/user-attachments/assets/b6aa219e-e3db-4672-965d-3768e1378780)
+
+![image](https://github.com/user-attachments/assets/696e0e7a-dd03-4370-9620-a23600b9350f)
